@@ -1,0 +1,45 @@
+.disabledButton {
+    cursor: not-allowed !important;
+}
+
+.buttonField {
+    margin-top: 10px;
+    position: relative
+}
+
+.buttonDesc {
+    font-size: 14px;
+    /* margin-top: 5px; */
+    color: gray;
+    position: absolute;
+    top: 2px;
+    right: 110px;
+    margin: 0;
+}
+
+.buttonDescArrawUp {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .buttonDesc {
+        right: 26px;
+    }
+}
+
+@media (max-width: 996px) {
+    .buttonDesc {
+        position: unset;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .buttonDescArrawLeft {
+        display: none;
+    }
+
+    .buttonDescArrawUp {
+        display: block;
+        margin-bottom: -10px;
+    }
+}

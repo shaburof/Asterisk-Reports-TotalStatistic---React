@@ -1,0 +1,212 @@
+.inboundColor {
+    background-color: #65a5bd;
+}
+
+.outboundColor {
+    background-color: #bd7d65;
+}
+
+.callInfos {
+    /* background-color: rgb(169, 225, 213); */
+    box-sizing: border-box;
+}
+
+.card1 {
+    background-color: #65a5bd;
+    /* background-color: rgb(207, 129, 77); */
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.card1 * {
+    margin: unset;
+    color: white;
+}
+
+.card1__title {
+    font-size: 14px;
+}
+
+.card1__value {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.section2 {
+    display: flex;
+}
+
+
+
+.section1 {
+    display: flex;
+}
+
+.card2 {
+    /* background-color: #65a5bd; */
+    /* background-color: rgb(207, 129, 77); */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: calc(100% / 3);
+    min-height: 61px;
+    /* flex-grow: 1; */
+}
+
+.card2 * {
+    margin: unset;
+    color: white;
+}
+
+/* .card2:first-child {
+    margin-right: 5px;
+} */
+
+.card2:last-child {
+    margin-right: unset;
+}
+
+
+.card2__title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card2__value {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .section2 {
+        flex-wrap: wrap;
+    }
+
+    .card2 {
+        /* width: calc(100% / 2); */
+        /* width: 49%; */
+
+        /* flex-basis: 49%; */
+        /* margin-right: unset; */
+        /* flex-grow: unset; */
+        flex-grow: 1;
+    }
+
+    .card2:first-child {
+        /* width: 100%; */
+        flex-basis: 100%;
+        margin-right: unset;
+    }
+
+    .card2:last-child {
+        /* margin-right: 5px; */
+    }
+}
+
+
+
+
+.card3 {
+    background-color: rgb(167, 94, 236);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 5px;
+    width: 50%;
+    min-height: 98px;
+}
+
+.card3 * {
+    margin: unset;
+    color: white;
+}
+
+.card3:first-child {
+    margin-right: 5px;
+}
+
+.card3__title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card3__operatorname {
+    font-size: 12px;
+    text-align: center;
+}
+
+.card3__value {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card3__download {
+    cursor: pointer;
+    width: 12px;
+    display: block;
+    align-self: center;
+    margin-top: 7px;
+    opacity: .7;
+}
+
+.card3__download:hover {
+    opacity: 1;
+}
+
+/* ------------------------ */
+.card4 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-content: center; */
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 5px;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.card4 * {
+    margin: unset;
+    color: white;
+}
+
+.card4:last-child {
+    margin-right: unset;
+}
+
+.card4__title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card4__operatorname {
+    font-size: 12px;
+    text-align: center;
+}
+
+.card4__value {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.colorOne {
+    background-color: rgb(71, 190, 101);
+}
+
+.colorTwo {
+    background-color: rgb(87, 143, 207);
+}
